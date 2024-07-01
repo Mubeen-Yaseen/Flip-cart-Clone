@@ -1,0 +1,123 @@
+@media (min-width:1000px) and (max-width:3000px) {
+    .main {
+        width: 100vw;
+        height: 45vh;
+    }
+}
+
+@media (min-width:850px) and (max-width:1000px) {
+    .main {
+        width: 100vw;
+        height: 25vh;
+    }
+
+    .Bottan {
+        display: none;
+    }
+}
+
+@media (min-width:0px) and (max-width:360px) {
+    
+
+    .main {
+        width: 100vw;
+        height: 12vh;
+    }
+
+    .Bottan {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        ;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        ;
+        justify-content: center;
+        font-size: 3vh;
+    }
+
+    ul {
+        display: flex;
+        ;
+        justify-content: center;
+
+    }
+
+    .new {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1vh;
+    }
+
+    .search {
+        padding-right: 15vh;
+    }
+
+    .icon {
+        position: relative;
+        left: 13vh;
+    }
+
+}
+
+@media (min-width:360px) and (max-width:850px) {
+   .cart{
+    margin-left: 4vh;
+   }
+    .cricket-img img{
+      width: 12vh;
+      height: 10vh;
+   }
+
+    .main {
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .Bottan {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        ;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        ;
+        justify-content: center;
+        font-size: 3vh;
+    }
+
+    ul {
+        display: flex;
+        ;
+        justify-content: center;
+
+    }
+
+    .new {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1vh;
+
+    }
+
+    .search {
+        padding-right: 15vh;
+    }
+
+    .icon {
+        position: relative;
+        left: 13vh;
+    }
+
+
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Slab:wght@100..900&family=Sriracha&display=swap');
+
+:root {
+    --main-bg-color: #0487bb;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-family: "Lobster", sans-serif;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-family: "Sriracha", cursive;
+    font-size: 2.2vw;
+    padding: 0vh 2vh .6vh 2vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 1.2vw 3vw 1vw 2vw;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    display: inline-flex;
+    align-items: center;
+    border: .2vw solid rgb(130, 148, 162);
+    width: 31vw;
+    height: 4.5vh;
+    border-radius: .6vw;
+    padding-right: 1vw;
+    background-color: white;
+
+}
+
+.search input {
+    background: transparent;
+    border: 0vw;
+    width: 30vw;
+    height: 4.5vh;
+    outline: 0vw;
+}
+
+.new {
+    display: inline-flex;
+    align-items: center;
+    padding-right: 1vw;
+}
+
+
+
+button {
+    padding: 1.5vh 1.5vh 1.5vh 1.5vh;
+    border-radius: 1vh;
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+.cart {
+    width: 96vw;
+    margin: 2vh 0vh 0vh 6vh;
+}
+
+.cart h2 {
+    font-family: "Sriracha", cursive;
+    font-family: "Roboto Slab", serif;
+}
+
+.cricket-img {
+    display: inline-flex;
+    flex-direction: column;
+    width: 8vw;
+    padding: 2vh 4vh 2vh 1vh;
+    overflow: hidden;
+}
+
+.my-1{
+    text-align: center;
+}
+
+.foot {
+    padding: 1vw 3vw;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: "Lobster", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
